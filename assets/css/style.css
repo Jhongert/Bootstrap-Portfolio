@@ -1,0 +1,204 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-image: url("../images/noisy.png");
+	font-family: 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+	line-height: 150%;
+	margin:0 0 60px; 
+	/* margin-bottom 80px = footer height. This is to make the sticky footer*/
+}
+
+.navbar-header {
+	margin-left: 15px;
+}
+
+.container {
+	max-width: 980px;
+}
+
+
+.main-content {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.main-content hr{
+	border-top: 2px solid #ddd;
+	margin:20px 0 20px;
+}
+
+.sidebar {
+	margin-bottom: 20px;
+}
+
+.social {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 5px 25px 25px;
+}
+
+.social-links {
+	max-width: 245px;
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #ccc;
+	height: 60px;
+	position: absolute; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer p{
+	margin-top: 15px;
+}
+/*endfooter************************************/
+
+
+
+/*header and nav ******************************/
+
+.navbar-nav{
+	padding-top: 98px;
+}
+
+.navbar-nav a {text-decoration: none}
+.navbar-nav a:link { color: #cccccc; }
+.navbar-nav a:visited { color: #cccccc; }
+.navbar-nav a:hover { color: #999999; }
+.navbar-nav a:active { color: #cccccc; }
+
+.navbar a:nth-child(n+2) {
+    border-left: 1px solid #eeeeee;  
+    padding-left: 15px; 
+    margin-left: 10px
+}
+
+/*end header and nav ***********************************/
+
+
+.navbar {
+	background-color: #fff;
+	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+
+.navbar {
+	border-bottom: 2px solid #ccc;
+}
+
+.navbar-nav>li>a{
+	padding:10px 8px !important;
+	font-size: 16px;
+}
+
+.social img {
+	width: 28%;
+	height: auto;
+}
+
+.social hr{
+	border-top: 1px solid #cccccc;
+	margin:20px 0 20px;
+}
+
+.social-links a:nth-child(-n+2) {
+    margin-right: 5%;
+}
+
+.rounded {border-radius: 10px}
+
+.social img:hover{
+	opacity: 0.8;
+}
+
+/*end sidebar********************************************/
+
+
+/* Elements ********************************************/
+h1, h2 {
+	font-family: 'Helvetica', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.profile-img {
+	margin-right: 15px;
+	width: 140px;
+}
+
+.navbar h1, h3 {
+  		margin-top: 10px;
+  		margin-bottom: 10px;
+  	}
+
+
+ @media screen and (max-width: 767px) {
+    .navbar {
+		text-align: center;
+    }
+
+	.navbar-nav{
+		padding-top: 10px;
+		float:none !important;
+	}
+
+    .profile-img {
+  		float: none !important;
+  		margin: 0 auto ;
+  	}
+
+	.profile-info {
+		float: none !important;
+		text-align: center;
+	}
+
+  	.navbar h1, h3 {
+  		text-align: center
+  	}
+
+  	
+}
+
+.work{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.work img{
+	width: 100%;
+}
+
+.work h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    bottom: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+ }
+
+.work h3:hover{
+	background: #29908b;
+
+}
+
+ /* End portfolio *******************************/}
+
+
